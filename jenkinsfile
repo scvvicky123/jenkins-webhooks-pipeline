@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'finding workspace'
                 sh 'pwd'
-                
+                sh 'ls'
             }
         }
     }

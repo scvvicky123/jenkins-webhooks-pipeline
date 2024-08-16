@@ -5,8 +5,8 @@ pipeline {
         stage('workspace') {
             steps {
                 echo 'finding workspace'
-                sh 'touch jenkinsscript.sh'
-                sh './jenkinsscript.sh'
+                sh 'pwd'
+                
             }
         }
     }
